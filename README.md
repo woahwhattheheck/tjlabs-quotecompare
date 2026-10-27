@@ -2,13 +2,13 @@
 
 Compare the supplier quotes you already have. See the cash required for your actual order after whole packs, minimums, discounts, freight, fees and stated tax. Unknown costs remain visible and currencies stay separate.
 
-**[Open the free workbench](https://tjlabs-quotecompare.throwawaytempor.chatgpt.site/)** · **[Download the free plugin](https://raw.githubusercontent.com/woahwhattheheck/tjlabs-quotecompare/c914c4335ba7db7549016445e11cb09be7f5028f/tjlabs-quotecompare-plugin-0.3.0.zip)** · **[Download the fictional comparison PDF](https://raw.githubusercontent.com/woahwhattheheck/tjlabs-quotecompare/f03435d0b4b11693d3a95351f006f65fc0c898c1/fictional-paperback-comparison.pdf)**
+**[Open the free workbench](https://tjlabs-quotecompare.throwawaytempor.chatgpt.site/)** · **[Download the free plugin](https://raw.githubusercontent.com/woahwhattheheck/tjlabs-quotecompare/0d41c121a960b507fd5b916ba8ff05d6f9eae446/tjlabs-quotecompare-plugin-0.3.1.zip)** · **[Download the fictional comparison PDF](https://raw.githubusercontent.com/woahwhattheheck/tjlabs-quotecompare/f03435d0b4b11693d3a95351f006f65fc0c898c1/fictional-paperback-comparison.pdf)**
 
 The example needs 250 paperbacks. A $4.40 unit quote has a 300-copy minimum and totals $1,450; the $5.00 unit quote totals $1,400 for 250. All suppliers and quote terms in the example are fictional.
 
 ## Use it with your assistant
 
-Download the complete 0.3.0 plugin above and import it into a client that supports portable Agent Plugins ZIPs. It includes local whole-pack and minimum-order calculations, an editable offline workbench, the existing unit-price workflow, and the optional hosted comparison tools. The calculation scripts and input guides are included.
+Download the complete 0.3.1 plugin above and import it into a client that supports portable Agent Plugins ZIPs. It includes local whole-pack and minimum-order calculations, an editable offline workbench, the existing unit-price workflow, and the optional hosted comparison tools. The calculation scripts and input guides are included.
 
 For a client that supports remote MCP connections directly, use:
 
@@ -59,9 +59,7 @@ node scripts/compare-quotes.mjs quotes.csv --csv --output comparison.json
 
 Both local scripts require Node.js 18 or later, with no external packages or network calls. Keep the basket and unit-price input formats distinct. Preserve unknown prices, freight and tax treatment as unknown; use zero only when the source establishes zero.
 
-## Prefer a prepared comparison?
-
-The separate **[$20 comparison preparation service](https://tjlabs-quote-compare-desk.throwawaytempor.chatgpt.site/offer.html)** covers one basket, up to three supplied quotes and twenty matched item lines. It provides a compact PDF, editable CSV, reusable workbench/project, one correction, and delivery within two business days after payment and readable sources. The offer page contains the current scope, checkout and intake instructions.
+## Support
 
 [Support](https://tjlabs-quote-compare-desk.throwawaytempor.chatgpt.site/support.html) · [Terms](https://tjlabs-quote-compare-desk.throwawaytempor.chatgpt.site/terms.html)
 
@@ -69,10 +67,10 @@ The comparison uses supplied quote data. Confirm product equivalence, stock and 
 
 ## Download integrity
 
-The new downloads are pinned to the package commit. The original [0.2.1 plugin](https://raw.githubusercontent.com/woahwhattheheck/tjlabs-quotecompare/f03435d0b4b11693d3a95351f006f65fc0c898c1/tjlabs-quotecompare-plugin-0.2.1.zip) and [0.2.1 release](https://github.com/woahwhattheheck/tjlabs-quotecompare/releases/tag/v0.2.1) remain available for existing installations. The paperback PDF link retains its original reviewed bytes.
+The downloads are pinned to their package commits. Version 0.3.1 points the plugin listing to the utility information page and keeps its skill focused on the supplied-quote comparison workflow. The original [0.2.1 plugin](https://raw.githubusercontent.com/woahwhattheheck/tjlabs-quotecompare/f03435d0b4b11693d3a95351f006f65fc0c898c1/tjlabs-quotecompare-plugin-0.2.1.zip) and [0.2.1 release](https://github.com/woahwhattheheck/tjlabs-quotecompare/releases/tag/v0.2.1) remain available for existing installations. The paperback PDF link retains its original reviewed bytes.
 
 | Download | Bytes | SHA256 |
 | --- | ---: | --- |
-| tjlabs-quotecompare-plugin-0.3.0.zip | 49,899 | `1051cc2b0dfc32d49dc0036deb2c4424b042d6b2379fff0764fabac9d0741514` |
+| tjlabs-quotecompare-plugin-0.3.1.zip | 57,499 | `afe03bf38c03d684762e5209a653bd49ba0f5482b62ab4bc079eed6b897b252b` |
 | QC21_Cafe_Quote_Comparison.zip | 24,558 | `36120e716aa3b0db2ddaaf1a9c5f6c95d2d5939cb1eae411035748f9e809c434` |
 | fictional-paperback-comparison.pdf | 46,976 | `47fad90ddff5ebff030e594d412c5d5042d45d1486112d1168a1b09ded583cd0` |
